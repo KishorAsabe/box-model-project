@@ -1,0 +1,77 @@
+/* element have it set by default
+BLOCK- always start a new line and span full width
+
+INLINE- Does not star a new line and span only content */
+
+/* block:browser resepect width/height.top/bottom margin
+
+INLINE: Not resepect browser resepect width/height.top/bottom margin
+
+
+Navbar
+list-type-type:property
+decendent selector
+*/
+/* 
+.block{
+    background-color: blue;
+    color:white; */
+
+    /* we can change block element to inline by following prpperty */
+ 
+
+    /* display:inline; */
+    /* display:block; */
+
+    /* but i want to whole back in center  */
+
+    /* width:300px;  */
+    /* margin:2rem auto; */
+/* }
+
+.inline{
+    background:red;
+    color:white;
+
+
+    display:block; */
+/* } */
+/* text align in center */
+body{
+    /* text-align:center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ span{
+    /* background: blue;
+    color:white;
+    height:400px;
+    margin-top:20px;
+    margin-bottom:200px;
+
+ */
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+ul li{
+/* removing bloking point  */
+    list-style-type: none;
+
+}
+/* decegent selector  */
+
+ul li a{
+    color:blue;
+}
+ 
+
+/* border-sizzing:border box
+
+ if we increse the padding element size remain same
+*/
